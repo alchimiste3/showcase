@@ -1,10 +1,4 @@
 {
-  "presentation":
-  {
-    "titre" : "Mon profil",
-    "introduction" : "Bonjour, ce site est ..."
-  },
-
 
   "CV" : {
     "nom" : "Laborde",

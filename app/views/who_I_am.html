@@ -11,7 +11,7 @@
 
 <div class="panel panel-default">
   <div class="panel-body">
-    <h3>Mon objectif</h3>
+    <h4>Mon objectif</h4>
     <p>{{json.CV.objectif}}</p>
   </div>
 </div>
@@ -30,24 +30,30 @@
   <div class="panel-body">
     <h4>Mes Experiences professionnels</h4>
     <ul>
-      <li ng-repeat="exp in json.CV.experience_professionnel">
+      <li class="liSansPuce" ng-repeat="exp in json.CV.experience_professionnel">
         <p>{{exp.annee_d}} - {{exp.annee_f}}</p>
-        <ul>
-          <li>{{exp.entreprise}}</li>
-          <li>{{exp.description}}</li>
-        </ul>
+        <div class="list-group">
+          <div class="list-group-item" >
+            <h4 class="list-group-item-heading">Entreprise</h4>
+            <p class="list-group-item-heading">{{exp.entreprise}}</p>
+            <br />
+            <h4 class="list-group-item-heading">Description du poste</h4>
+            <p class="list-group-item-heading">{{exp.description}}</p>
+          </div>
+        </div>
       </li>
     </ul>
   </div>
 </div>
 
 
+
 <div class="panel panel-default">
   <div class="panel-body">
     <h3>Mes centres d'interets</h3>
-    <ul>
-      <li ng-repeat="int in json.centre_interet">{{int}}</li>
-    </ul>
+    <div class="row">
+      <p class="col-md-4" ng-repeat="int in json.centre_interet">{{int}}</p>
+    </div>
   </div>
 </div>
 

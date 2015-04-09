@@ -1,11 +1,14 @@
-<h3>Contacts et lien utiles </h3>
 
-<div >
-  <ul>
-    <li class="liSansPuce"><a class="btn btn-lg btn-info" href="{{json.lien.url_facebook}}">Ma page Facebook.</a></li><br />
-    <li class="liSansPuce"><a class="btn btn-lg btn-info" href="{{json.lien.url_youtube}}">Ma page youtube.</a></li><br />
-    <li class="liSansPuce"><a class="btn btn-lg btn-info" href="mailto:{{json.lien.email[0]}}">Mon email perso.</a></li><br />
-    <li class="liSansPuce"><a class="btn btn-lg btn-info" href="mailto:{{json.lien.email[1]}}">Mon email pro.</a></li><br />
-  </ul>
+<div class="panel panel-default">
+  <div class="panel-heading">
+    <h4 class="panel-title">Contacts et lien utiles</h4>
+  </div>
+  <div class="panel-body">
+    <div class="row">
+      <p class="col-md-4"><a class="btn btn-lg btn-info" href="{{json.lien.url_facebook}}">Ma page Facebook.</a></p>
+      <p class="col-md-4"><a class="btn btn-lg btn-info" href="{{json.lien.url_youtube}}">Ma page youtube.</a></p>
+      <p class="col-md-4"><a class="btn btn-lg btn-info" href="mailto:{{json.lien.email[0]}}">Mon email perso.</a></p>
+      <p class="col-md-4"><a class="btn btn-lg btn-info" href="mailto:{{json.lien.email[1]}}">Mon email pro.</a></p>
+    </div>
+  </div>
 </div>
-

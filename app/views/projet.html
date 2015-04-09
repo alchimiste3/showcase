@@ -3,45 +3,23 @@
     <h3>Mes projet</h3>
 
     <ul class="list-group">
-
       <li class="list-group-item" ng-repeat="proj in json.projet">
-
         <h5 >{{proj.annee_d}} - {{proj.annee_f}}</h5>
-        <ul>
-          <li class="liSansPuce" >
-            <div class="list-group">
-              <div class="list-group-item" >
-                <h4 class="list-group-item-heading">Nom</h4>
-                <p class="list-group-item-text">{{proj.nom}}</p>
-              </div>
-
+          <div class="list-group">
+            <div class="list-group-item" >
+              <h4 class="list-group-item-heading">Nom</h4>
+              <p class="list-group-item-text">{{proj.nom}}</p>
+              <br />
+              <h4 class="list-group-item-heading">En court</h4>
+              <p class="list-group-item-text">{{proj.en_court}}</p>
+              <br />
+              <h4 class="list-group-item-heading">Description</h4>
+              <p class="list-group-item-text">{{proj.description}}</p>
+              <br />
+              <h4 class="list-group-item-heading">Site</h4>
+              <p class="list-group-item-text"><a href="{{proj.site}}">Le site</a></p>
             </div>
-          </li>
-          <li class="liSansPuce" >
-            <div class="list-group">
-              <div class="list-group-item">
-                <h4 class="list-group-item-heading">En court</h4>
-                <p class="list-group-item-text">{{proj.en_court}}</p>
-              </div>
-            </div>
-          </li>
-          <li class="liSansPuce" >
-            <div class="list-group">
-              <div class="list-group-item">
-                <h4 class="list-group-item-heading">Description</h4>
-                <p class="list-group-item-text">{{proj.description}}</p>
-              </div>
-            </div>
-          <li class="liSansPuce" >
-            <div class="list-group">
-              <div class="list-group-item">
-                <h4 class="list-group-item-heading">Site</h4>
-                <p class="list-group-item-text"><a href="{{proj.site}}">Le site</a></p>
-              </div>
-            </div>
-            </li>
-        </ul>
-
+          </div>
       </li>
 
     </ul>

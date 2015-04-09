@@ -22,11 +22,8 @@ body{
 
 }
 
-h3{
-  text-align: center;
-  text-decoration: underline;
-}
 
-.btn {
-  float: none;
+
+.panel-title{
+  font-size: 30px;
 }

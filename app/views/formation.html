@@ -1,32 +1,52 @@
 <h3>Formation :</h3>
 
-
-<div class="panel panel-default" ng-repeat="cursu in json.CV.cursus_scolaire">
+<div class="panel panel-default">
+  <div class="panel-heading">
+    <h3 class="panel-title">Formation</h3>
+  </div>
   <div class="panel-body">
-    <p>{{cursu.annee_d}} - {{cursu.annee_f}}<p/>
-    <ul>
-      <li>{{cursu.description}}</li>
-      <li>{{cursu.option}}</li>
-      <li>{{cursu.resultat}}</li>
-    </ul>
+    <div class="panel panel-default" ng-repeat="cursu in json.CV.cursus_scolaire">
+
+      <div class="panel-body">
+        <p>{{cursu.annee_d}} - {{cursu.annee_f}}<p/>
+        <ul>
+          <li>{{cursu.description}}</li>
+          <li>{{cursu.option}}</li>
+          <li>{{cursu.resultat}}</li>
+        </ul>
+      </div>
+    </div>
   </div>
 </div>
 
 
-<h3>Compétence :</h3>
-<div class="list-group">
-  <li class="list-group-item list-group-item-info" ng-repeat="comp in json.CV.competance">
-    <p>{{comp}}</p>
-  </li>
+
+
+
+<div class="panel panel-default">
+  <div class="panel-heading">
+    <h3 class="panel-title">Compétences</h3>
+  </div>
+  <div class="panel-body">
+    <div class="row">
+      <div ng-repeat="comp in json.CV.competance">
+        <p class="col-md-3">{{comp}}</p>
+      </div>
+    </div>
+  </div>
 </div>
 
 
 
-<h3>Langues :</h3>
-
 <div class="panel panel-default">
+  <div class="panel-heading">
+    <h3 class="panel-title">Langues</h3>
+  </div>
   <div class="panel-body">
-    <p>{{json.CV.langues[0]}}</p>
-
+    <div class="row">
+      <div ng-repeat="lang in json.CV.langues">
+        <p class="col-md-3">{{lang}}</p>
+      </div>
+    </div>
   </div>
 </div>
