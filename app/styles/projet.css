@@ -1,0 +1,32 @@
+
+body{
+  background:#4BB5C1;
+}
+
+
+.panel-body {
+  background:#F3F3F3;
+}
+
+
+.header{
+  font-family: Arial;
+  text-decoration-color: #ffffff;
+}
+
+.ongle {
+
+  font-family: Arial;
+  color: #ffffff;
+  font-size: 15px;
+
+}
+
+h3{
+  text-align: center;
+  text-decoration: underline;
+}
+
+.btn {
+  float: none;
+}

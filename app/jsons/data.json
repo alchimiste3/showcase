@@ -1,0 +1,115 @@
+{
+  "presentation":
+  {
+    "titre" : "Mon profil",
+    "introduction" : "Bonjour, ce site est ..."
+  },
+
+
+  "CV" : {
+    "nom" : "Laborde",
+    "prenom" : "Quentin",
+    "objectif" : "Après l'obtention de mon diplôme d'ingénieur en Science information, je souhaiterais faire une année de spécialisation dans la création audiovisuelle afin de pouvoir travailler dans ce secteur. Mon poste idéal serait de travail dans l'animation 3 D, ainsi je pourrai travail dans l'industrie du cinéma qui est une de mes grandes passions.",
+    "date_de_naisssance" : "24 Mars 1993",
+    "biographie" : "Je suis née et je suis mort",
+    "experience_professionnel" : [
+      {
+        "annee_d" : "2010",
+        "annee_f" : "2015",
+        "entreprise" : "SEDIS à Seyne les Alpes.",
+        "description" : "Travail saisonnier (Tâche Manuelle)."
+
+      }
+
+    ],
+    "cursus_scolaire" : [
+      {
+        "annee_d" : "2009",
+        "annee_f" : "2011",
+        "description" : "BAC S SI aux Lycée Pierre-Gilles de Gennes.",
+        "option" : "Option Science de l'ingénieur.",
+        "resultat" : "Mension assez bien (13,6)."
+      },
+      {
+        "annee_d" : "2012",
+        "annee_f" : "2014",
+        "description" : "Class Préparatoire à Polytech Nice Sophia (EPU) à Sophia Antipolis.",
+        "option" : "Ingénieur",
+        "resultat" : "15/87 de la promotion"
+      },
+      {
+        "annee_d" : "2014",
+        "annee_f" : "2015",
+        "description" : "Troisième année en Science Informatique à Polytech Nice Sophia.",
+        "option" : "Sience de l'informatique",
+        "resultat" : "Premier semestre : 14.77/20"
+      }
+    ],
+    "competance" : ["Python", "JAVA", "C", "HTML", "CSS", "PHP", "JavaScript", "XML"],
+    "langues" : ["Anglais technique"]
+
+
+
+  },
+
+  "projet" : [
+    {
+      "annee_d" : "2014",
+      "annee_f" : "2015",
+      "en_court" : "oui",
+      "nom" : "Projet Devint",
+      "description" : "",
+      "site" : "http://users.polytech.unice.fr/~strombon/DEVINT2015/"
+    },
+    {
+      "annee_d" : "2014",
+      "annee_f" : "2015",
+      "en_court" : "oui",
+      "nom" : "Projet OGL",
+      "description" : "Ce projet ce déroulant tout au long du second semestre a pour but de nous famialariser avec la conseption logiciel en utilsant des outils telle que les tableaux de tache, Git, Maven, les test unitaire (JUnit), les metrages, ...",
+      "site" : "http://www.i3s.unice.fr/~mosser/teaching/tse"
+    },
+    {
+      "annee_d" : "2014",
+      "annee_f" : "2015",
+      "en_court" : "non",
+      "nom" : "Projet en quadrinôme : Organisation et mise en place d'un évènement au profit du Téléthon.",
+      "description" : "Le but de ce projet était d'organiser deux tournois de jeux à la suite et de reverser tous les bénéfices de l'événement à une association humanitaire. Pour cela, nous avant dû utiliser plusieurs outils qui permettent la mise en place d'un projet : le cahier des charges, un plan projet qui comprend un diagramme WBS et un diagramme de GANTT (Microsoft project).",
+      "site" : ""
+    },
+    {
+      "annee_d" : "2013",
+      "annee_f" : "2014",
+      "en_court" : "non",
+      "nom" : "Projet en binôme : Conception et mise en ligne d'un site internet.",
+      "description" : "Notre objectif dans ce projet de deux mois était de mettre en place le jeu de la bataille naval en ligne. Pour cela, nous avons dû utiliser le HTML, le PHP, le CSS et le Javascript mais aussi le format XML. Le site permettait à n'importe quel utilisateur de s'inscrire et de jouer en ligne contre un autre utilisateur. La plus grosse difficulté était de mettre en place une génération automatique aléatoire du placement des bateaux sur la grille de jeu, ainsi l'utilisateur n'avait pas à placer ces bateaux. Au final, nous avant obtenue un site fonctionnel sur apache mais nous avons eu des difficultés à adapter le code au serveur en ligne. Ce projet nous a permis d’acquérir de bonne base en conception et mise en place de site internet et plus particulièrement dans la communication entre le PHP et le Javascript et les bases de données XML.",
+      "site" : ""
+    },
+    {
+      "annee_d" : "2013",
+      "annee_f" : "2014",
+      "en_court" : "non",
+      "nom" : "Deuxième projet en monome : Conception d'un jeu avec une interface graphique.",
+      "description" : "Mon objectif était de concevoir en deux semaines ma version sur ordinateur du jeu mobile 2048 en utilisant le JAVA et son interface graphique. Cela n’a pas posé de difficultés particulières.",
+      "site" : ""
+    },
+    {
+      "annee_d" : "2013",
+      "annee_f" : "2014",
+      "en_court" : "non",
+      "nom" : "Premier projet en monôme : Conception d'un jeu avec une interface graphique.",
+      "description" : "Mon objectif dans ce projet était de concevoir en un mois une version numérique du jeu de plateaux SIAM. Pour cela, j'ai dû utiliser le JAVA et en particulier son interface graphique. L'implémentation des règles de jeux a posé problème mais j'ai finalement réussi à obtenir une version fonctionnelle.",
+      "site" : ""
+    }
+  ],
+
+  "lien": {
+    "url_facebook" : "https://Www.facebook.com/quentin/laborde1",
+    "url_youtube" : "https://www.youtube.com/channel/UCquHEupvFfYsGIJXrTz9HFQ",
+    "email" :["quentin.labord1@hotmail.fr", "qlaborde@polytech.unice.fr"]
+
+  },
+  "centre_interet" : ["voile","Architecture","informatique","Cinéma","Art","Animation"]
+
+
+}
